@@ -16,9 +16,18 @@ cd orderbook-market-making
 pip install -r requirements.txt
 ```
 
+
 ## Quick Start
 ```bash
 streamlit run dashboard/app.py
+```
+
+## Testing
+Run the verification scripts to ensure system stability:
+```bash
+python src/verify_day4.py   # Full system check
+python src/verify_risk.py   # Test risk limits
+python src/verify_hawkes.py # Test Hawkes process simulation
 ```
 
 ## Results

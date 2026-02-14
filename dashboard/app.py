@@ -225,4 +225,4 @@ elif page == "Technical Report":
 
 if auto_refresh:
     time.sleep(refresh_rate)
-    st.rerun()
+    st.experimental_rerun()
